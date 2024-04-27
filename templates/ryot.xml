@@ -21,7 +21,7 @@
   <Requires>
   Depends on: PostgreSQL 15
   </Requires>
-  <Config Name="Server Insecure Cookie" Target="SERVER_INSECURE_COOKIE" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Frontend Insecure Cookie" Target="FRONTEND_INSECURE_COOKIES" Default="true" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Postgres DB URL" Target="DATABASE_URL" Default="postgres://postgres:postgres@postgres:5432/postgres" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Data Dir" Target="/data" Default="/mnt/user/appdata/ryot" Mode="rw" Description="" Type="Path" Display="advanced" Required="true" Mask="false"></Config>
